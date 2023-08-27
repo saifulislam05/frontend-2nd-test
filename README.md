@@ -1,6 +1,6 @@
 # Weekly Test 2
 
-### Here is Hosted link : (https://saifulislam05.github.io/frontend-2nd-test/)
+### Here is hosted link : https://saifulislam05.github.io/frontend-2nd-test/
 
 ## Project Overview
 
