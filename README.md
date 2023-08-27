@@ -7,6 +7,7 @@ This project consists of a simple webpage designed using HTML to showcase differ
 ## Understanding the Files
 
 ### Index.html
+![image](https://github.com/saifulislam05/frontend-2nd-test/assets/73392705/f7e194a9-3dd3-429c-b92c-d67a98c608c3)
 
 The "index.html" file is the primary HTML document that lays the foundation for the webpage. It features two iframes, acting as distinct windows to display different content sections.
 
@@ -19,6 +20,7 @@ The left-side iframe presents content from the "left-side.html" file. This area 
 The right-side iframe displays content from an external website, specifically from "https://saifulislam05.github.io/resume/". The iframe is labeled with the `name` attribute "right-side," ensuring that links from the left side open within this right-side window.
 
 ### Left-side.html
+![image](https://github.com/saifulislam05/frontend-2nd-test/assets/73392705/342fdfea-f8b1-4e5b-b178-c9134f7fba80)
 
 The "left-side.html" file serves as a catalog of projects, each with relevant images and corresponding links.
 
