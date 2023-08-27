@@ -1,35 +1,40 @@
 # Weekly Test 2
 
-## Index.html
+## Project Overview
 
-The "index.html" file is the primary HTML document that establishes the foundation of webpage. It has two iframes, each responsible for displaying distinct content.
+This project consists of a simple webpage designed using HTML to showcase different projects and their details. The main purpose is to demonstrate how iframes and various HTML tags can be utilized to create an informative and interactive webpage.
 
-### Left Side
+## Understanding the Files
 
-The left side iframe is designated to showcase content sourced from the "left-side.html" file.
+### Index.html
 
-### Right Side
+The "index.html" file is the primary HTML document that lays the foundation for the webpage. It features two iframes, acting as distinct windows to display different content sections.
 
- the right side iframe is utilized to present content from an external website, specifically from the URL "https://saifulislam05.github.io/resume/". The `name` attribute of this iframe is set to "right-side." Consequently, this attribute is used as a target for hyperlinks contained within the left-side iframe. Clicking on such links will trigger the opening of content within the right-side iframe on the main page.
+#### Left Side
 
-## Left-side.html
+The left-side iframe presents content from the "left-side.html" file. This area can be used for navigation or displaying related links.
 
-The "left-side.html" file is a list of projects. Each project has pictures and links.
+#### Right Side
 
-### Project 1 - Resume
+The right-side iframe displays content from an external website, specifically from "https://saifulislam05.github.io/resume/". The iframe is labeled with the `name` attribute "right-side," ensuring that links from the left side open within this right-side window.
 
-In this segment, the `<p>` tag is deployed to exhibit the textual content "Project 1 - Resume". An `<a>` tag encapsulates an image representing a resume, and this tag is linked to the URL "https://saifulislam05.github.io/resume/". The "target" attribute of the `<a> `tag is established as "right-side". This attribute signifies that when a user clicks on this link, the linked content will be displayed within the right-side iframe on the primary webpage.
+### Left-side.html
 
-### Project 2 - Photo Cat App
+The "left-side.html" file serves as a catalog of projects, each with relevant images and corresponding links.
 
-Following a similar approach to the previous project, this section integrates a hyperlink leading to a cat photo app webpage. An image related to the cat photo app is incorporated, and the `<a>` tag features a link to "https://saifulislam05.github.io/cat-photo-app/". The `target` attribute is specified as "right-side", indicating that clicking on this link will render the linked content within the right-side iframe.
+#### Project 1 - Resume
 
-### Project 3 - HTML Form
+This section uses a paragraph tag `<p>` to display "Project 1 - Resume". An anchor tag `<a>` surrounds an image that represents a resume. Clicking the image takes users to "https://saifulislam05.github.io/resume/" in the right-side iframe.
 
-This section provides a link to an HTML form page. An accompanying image is included, and the `<a>` tag within this section points to "https://saifulislam05.github.io/html-form/". Similar to previous instances, the "target" attribute is set to "right-side".
+#### Project 2 - Photo Cat App
 
-### Project 4 - Tribute Page
+Similarly, this section features a linked image that directs users to a cat photo app page.
 
-The final project segment encompasses a link directing to a tribute page. An associated image is featured, and the `<a>` tag's hyperlink is directed to "https://saifulislam05.github.io/tribute-page/". The "target" attribute is configured as "right-side".
+#### Project 3 - HTML Form
 
-Each project section employs consistent structural elements, with `<p>` tags for project titles, `<a>` tags for hyperlinks, and `<img>` tags for displaying associated images.
+This section provides a link to an HTML form page.
+
+#### Project 4 - Tribute Page
+
+The final project section encompasses a link directing to a tribute page.
+
